@@ -11,7 +11,6 @@ export class Sheep {
     }
 
     animate(ctx, dots) {
-
     }
 
 
