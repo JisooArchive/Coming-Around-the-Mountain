@@ -5,7 +5,6 @@ export class Hill {
         this.total = total;
     }
 
-
     resize(stageWidth, stageHeight) {
         this.stageWidth = stageWidth;
         this.stageHeight = stageHeight;
