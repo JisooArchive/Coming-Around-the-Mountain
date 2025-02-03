@@ -18,7 +18,6 @@ export class Hill {
                 y: this.getY()
             }
         }
-
     }
 
     draw(ctx) {
