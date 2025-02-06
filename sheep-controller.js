@@ -9,7 +9,6 @@ export class SheepController {
             this.loaded();
         };
         this.img.src = 'sheep.png'
-
         this.items = [];
         this.cur = 0;
         this.isLoaded = false;
