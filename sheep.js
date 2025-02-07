@@ -1,7 +1,6 @@
 export class Sheep {
     constructor(img, stageWidth) {
         this.img = img;
-
         this.totalFrame = 8;
         this.curFrame = 0;
     }
