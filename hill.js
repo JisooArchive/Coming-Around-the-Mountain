@@ -8,7 +8,6 @@ export class Hill {
     resize(stageWidth, stageHeight) {
         this.stageWidth = stageWidth;
         this.stageHeight = stageHeight;
-
         this.points = [];
         this.gap = Math.ceil(this.stageWidth / (this.total-2));
 
