@@ -10,7 +10,6 @@ export class Hill {
         this.stageHeight = stageHeight;
         this.points = [];
         this.gap = Math.ceil(this.stageWidth / (this.total-2));
-
         for (let i=0; i < this.total; i++) {
             this.points[i] = {
                 x: i * this.gap,
