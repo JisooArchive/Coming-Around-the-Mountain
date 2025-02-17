@@ -38,7 +38,6 @@ export class SheepController {
                 this.cur = 0;
                 this.addSheep();
             }
-
             for (let i = this.items.length - 1; i >= 0; i--) {
                 const item = this.items[i];
                 if (item.x < -item.width) {
